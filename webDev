@@ -1,16 +1,61 @@
-<html> 
-<script>
+<html>
 
-</script>
-<!-- 
+<head>
+    <title>DiffuseMe</title>
+    <link rel="stylesheet" href="robot2022.css">
+    <script src="https://kit.fontawesome.com/0253f61f9e.js" crossorigin="anonymous"></script>
+    <script src="robot2022.js" type="text/javascript"></script>
+</head>
 
--->
-<head> 
-</head> 
-<body> 
-<div>
+<header>
+    <img src="DiffuseMe.png" id="logo" />
+</header>
+
+<div class="flex-container">
+    <div class="left">
+        <div id="intro">
+            <p>DiffuseMe is an interactive website that allows you to transform selfies into modified "diffusions." </p>
+            <p>Through use of image processing technology, our platform can generate distortions to your original photos, creating a new visual of yourself that blends through the digital bounds. All you have to do is upload a photo (JPG, PNG, GIF) and submit!</p>
+            <p>
+                Whether you use our platform for laughs with others or just personal amusement, we hope to spread happiness and creativity among our users. Don't be afraid to open yourself up to new perspectives and redefine how you see "you," free of norms and aesthetics.
+            </p>
+            <p>Keep in mind that, while your data will be used to perform our service, it will not be sold to third parties.
+            </p>
+            <form action="/action_page.php">
+                <input id="theFile" type="file" name="filename" />
+                <input id="Button" type="submit" />
+            </form>
+        </div>
+    </div>
+
+    <div class="middle">
+        <div id="before">
+            <img id="testimg" src="test.png">
+        </div>
+    </div>
+
+    <div class="right">
+        <div id="after">
+            <img id="testimg" src="test.png">
+        </div>
+    </div>
+
 </div>
-<div>
-</div>
-</body> 
+<footer>
+    <div class="social">
+        <a href="https://www.facebook.com/" class="facebook">
+            <i class="fa-brands fa-facebook fa-xl"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="instagram">
+            <i class="fa-brands fa-instagram fa-xl"></i>
+        </a>
+        <a href="https://www.whatsapp.com/" class="whatsapp">
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+        </a>
+        <a href="" class="download">
+            <i class="fa-solid fa-download fa-xl"></i>
+        </a>
+    </div>
+</footer>
+
 </html>
